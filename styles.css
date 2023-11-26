@@ -45,7 +45,6 @@ box-shadow: 4px 4px 14px
 }
 .card {
   text-align: center;
-  background: red;
   padding: 15px 20px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -60,11 +59,9 @@ ul {
     background: #fff9dc;
   }
   
-  .bg-green {
-    background: #e5ffe7;
+.bg-green {
+    background-color: #e5ffe7;
   }
-  
-  .card bg-green 
   
   .bg-red {
     background: #ffe5e5;
