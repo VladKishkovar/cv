@@ -8,14 +8,18 @@ body{
     font-weight: normal;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.info {
+ text-align: center;
+}
+
 a {
-    color:black;
-  
+  color:black;
   text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 a:active {
     color: blue;
@@ -40,10 +44,16 @@ box-shadow: 4px 4px 14px
     /*word-spacing: 44px;*/
 }
 .card {
-    background: red;
-padding: 15px 20px;
-margin-bottom: 20px;
-border-radius: 20px;
+  text-align: center;
+  background: red;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .bg-yellow {
