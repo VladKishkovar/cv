@@ -128,6 +128,15 @@ border-width: 1px;
       padding-bottom: 5px;
       border-bottom: 1px solid #ccc;
     }
+    
 
+      .table {
+        width: 100%;
+    }
+    
+    .table td:nth-child(1) {
+      color: #86898f;
+
+}
     
 
