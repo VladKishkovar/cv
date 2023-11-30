@@ -37,10 +37,26 @@ border-radius: 28px;
 box-shadow: 4px 4px 14px
 }
 
-.info {
-  margin-bottom: 20px;
-
+.info-text {
+  margin-left: 40px;
 }
+.info-text h4 {
+  margin-bottom: 10px;
+}
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width:700px)  {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+
 .info p {
     color: #86898f;
     margin: 0;
@@ -88,11 +104,11 @@ ul {
   }
 
 /*BOX model */
-/*.container /*
-
-/*max-width: 750px ;
+.container {
+max-width: 750px ;
 margin: auto;
-}*/
+padding-top: 30px;
+}
 
 
 
@@ -120,6 +136,7 @@ border-width: 1px;
     */
     .link-list {
       list-style: none;
+      padding: 0;
 
     }
 
@@ -172,3 +189,41 @@ border-width: 1px;
   width:  50%;
   margin-right: 20px;
 }
+.row > .form-group: :last-child {
+  margin-right: 0;
+}
+.btn {
+  background: #111;
+  padding: 15px; 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: 0.9;
+}
+ 
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+
+/* Position */
+
+/*.position {
+  border: 4px solid black;
+  margin-top: 40px;
+padding: 20px;
+height: 300px;
+
+}
+
+.box {
+position: fixed;
+bottom: 50px;
+right: 50px;
+border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+}*/
